@@ -9,6 +9,7 @@ Original article [here](https://aws.amazon.com/blogs/compute/writing-aws-lambda-
 2. Create an AWS Lambda function from the AWS web UI; upload the _.jar_ above as zip source.
 3. Add a RESTful API to it using AWS API Gateway.
 4. Request payload sample:
-  ```json
+
+```json
   { "firstName": "Ketcho", "lastName": "Metcho" }
-  ```
+```
