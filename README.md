@@ -5,13 +5,10 @@ Original article [here](https://aws.amazon.com/blogs/compute/writing-aws-lambda-
 
 ### Usage
 
-`sbt compile assembly` then use the zip in _target\scala-2.11_
-to create an AWS Lambda function from the AWS web UI.
-
-Add a RESTful API to it using AWS API Gateway.
-
-Request payload sample:
-
-```json
-{ "firstName": "Ketcho", "lastName": "Metcho" }
-```
+1. `sbt compile assembly` => a fat _.jar_ in _target\scala-2.11_
+2. Create an AWS Lambda function from the AWS web UI; upload the _.jar_ above as zip source.
+3. Add a RESTful API to it using AWS API Gateway.
+4. Request payload sample:
+  ```json
+  { "firstName": "Ketcho", "lastName": "Metcho" }
+  ```
