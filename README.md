@@ -13,3 +13,5 @@ Original article [here](https://aws.amazon.com/blogs/compute/writing-aws-lambda-
 ```json
   { "firstName": "Ketcho", "lastName": "Metcho" }
 ```
+
+P.S. JSON is (de)serialized using Jackson.
